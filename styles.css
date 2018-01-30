@@ -1,0 +1,34 @@
+/* This is the styles.css for canvas-tester */
+
+
+.container
+{
+	display:block;
+	width:100%;
+}
+canvas
+{
+	border:1px solid black;
+	margin-left:100px;
+}
+
+#test-image-holder
+{
+	display:block;
+	height:600px;
+	width:600px;
+	border:1px solid red;
+	float:left;
+	margin-left:100px;
+}
+#test-image-holder img
+{
+	max-width:100%;
+}
+#make-happen
+{
+	width:200px;
+	height:100px;
+	float:left;
+	margin-left:10px;
+}
